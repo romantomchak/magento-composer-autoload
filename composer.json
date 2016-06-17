@@ -2,6 +2,7 @@
   "name": "romantomchak/magento-composer-autoload",
   "homepage": "https://github.com/romantomchak/magento-composer-autoload",
   "description": "Integration composer autoload into Magento. Allows to load third-party libraries from vendor directory.",
+  "keywords":[ "composer", "composer-autoload", "magento"],
   "type": "magento-module",
   "license": "MIT",
   "authors": [
@@ -11,6 +12,10 @@
     }
   ],
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=5.3.0",
+    "composer/composer": "~1.0"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "Magento extension installer"
   }
 }
