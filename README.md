@@ -35,6 +35,7 @@ If you use the custom vendor directory, you need to specify the path to it by se
  - define `MAGE_VENDOR_ROOT` php constant with full path to the `vendor` directory (without a slash at the end)
  - set `MAGE_VENDOR_ROOT` environment variable with full path to the `vendor` directory (without a slash at the end)
 
- Also you can specify the custom `name` for vendor directory by:
+
+Also you can specify the custom `name` for vendor directory by:
  - define `MAGE_VENDOR_DIR_NAME` php constant with `vendor` directory name
  - set `MAGE_VENDOR_DIR_NAME` environment variable with `vendor` directory name
