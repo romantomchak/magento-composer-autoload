@@ -1,0 +1,2 @@
+Magento Composer Autoload
+===

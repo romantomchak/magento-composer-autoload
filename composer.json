@@ -1,0 +1,16 @@
+{
+  "name": "romantomchak/magento-composer-autoload",
+  "homepage": "https://github.com/romantomchak/magento-composer-autoload",
+  "description": "Integration composer autoload into Magento. Allows to load third-party libraries from vendor directory.",
+  "type": "magento-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name":"Roman Tomchak",
+      "email":"romantomchak@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
