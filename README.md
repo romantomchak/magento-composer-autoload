@@ -11,7 +11,8 @@ To install this autoload using [magento-composer-installer](https://github.com/C
 1. Create `composer.json` file (if it is not created already) and add extra parameters:
  - `magento-root-dir` - Magento document root Path to Magento root directory regarding to `composer.json` file.
  - `with-bootstrap-patch` - Prevent patching the `Mage.php` file.
-For example, if your `composer.json` file is in Magento root directory, then the extra configuration should look like this:
+ 
+ For example, if your `composer.json` file is in Magento root directory, then the extra configuration should look like this:
  ```json
  "extra": {
      "magento-root-dir": ".",
@@ -19,7 +20,7 @@ For example, if your `composer.json` file is in Magento root directory, then the
  }
  ```
 
- 2. Add `magento-composer-installer` and `magento-composer-installer` to composer requirements:
+2. Add `magento-composer-installer` and `magento-composer-installer` to composer requirements:
 
  ```sh
  composer require magento-hackathon/magento-composer-installer
