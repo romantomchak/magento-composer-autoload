@@ -1,5 +1,9 @@
 # Magento Composer Autoload
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/romantomchak/magento-composer-autoload.svg?style=flat-square)](https://packagist.org/packages/romantomchak/magento-composer-autoload)
+[![Downloads](https://img.shields.io/packagist/dt/romantomchak/magento-composer-autoload.svg?style=flat-square)](https://packagist.org/packages/romantomchak/magento-composer-autoload)
+[![License](https://img.shields.io/packagist/l/romantomchak/magento-composer-autoload.svg?label=license&style=flat-square)](LICENSE.md)
+
 Complete and simple to install Composer autoloader to Magento
 
 ## Installation
