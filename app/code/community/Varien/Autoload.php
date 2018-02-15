@@ -93,6 +93,8 @@ class Varien_Autoload
             return $basePath . 'lib' . DIRECTORY_SEPARATOR . $vendorDirName;
         } elseif (is_dir($basePath . $vendorDirName)) {
             return $basePath . $vendorDirName;
+        } elseif (is_dir($basePath . '..' . DIRECTORY_SEPARATOR . $vendorDirName)) {
+	        return $basePath . '..' . DIRECTORY_SEPARATOR . $vendorDirName;
         }
 
         return false;
