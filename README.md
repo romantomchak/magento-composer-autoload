@@ -4,7 +4,9 @@
 [![Downloads](https://img.shields.io/packagist/dt/romantomchak/magento-composer-autoload.svg?style=flat-square)](https://packagist.org/packages/romantomchak/magento-composer-autoload)
 [![License](https://img.shields.io/packagist/l/romantomchak/magento-composer-autoload.svg?label=license&style=flat-square)](LICENSE.md)
 
-Complete and simple to install Composer autoloader to Magento
+Complete and simple to install Composer autoloader to Magento.
+
+> **NOTE.** Version 1.1 is only compatible with Magento 1.9 CE and Magento 1.14 EE 
 
 ## Installation
 
